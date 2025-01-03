@@ -1,0 +1,7 @@
+# filepath: /d:/Logistic-System/logistic-app/.gitignore
+# Ignore virtual environment
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
