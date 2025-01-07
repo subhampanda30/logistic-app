@@ -6,7 +6,7 @@ This is a FastAPI-based logistic application that provides a RESTful API for man
 
 ```
 logistic-app
-├── app
+
 │   ├── main.py                # Entry point of the FastAPI application
 │   ├── api                    # Contains API-related files
 │   │   ├── v1                 # Version 1 of the API
@@ -49,7 +49,16 @@ logistic-app
 
 2. **Install dependencies:**
    ```
+   python -m venv venv
+
    pip install -r requirements.txt
+   pip install pytest
+
+   source venv/bin/activate  # Linux/Mac
+   venv\Scripts\activate     # Windows
+
+   pip install --upgrade pip setuptools
+   
    ```
 
 3. **Set up the database:**
